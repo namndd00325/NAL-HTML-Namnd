@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 17px;
+
+}
+header{
+    height: 100px;
+    background-color:aliceblue;
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid;
+}
+main {
+
+    height: 1100px;
+    padding-top: 100px;
+}
+
+footer {
+    text-align: center;
+    height: 40px;
+    background-color: #64A7DC;
+    border-top: 2px solid;
+    padding-top: 20px;
+}
+.container{
+    width: 960px;
+    margin: auto;
+
+}
+li{
+    display: inline;
+    border-right: 1px solid #000000;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+nav{
+    float: right;
+    padding: 40px 0 0 0;
+
+}
+.note{
+    text-align: center;
+}
+.author{
+    text-align: right;
+    padding-right: 120px;
+}
+.content{
+    height: 80px;
+    border-bottom: 2px solid #000000;
+    background-color: #64A7DC;
+    padding-top: 40px;
+}
+
+.item{
+    width: 250px;
+    float: left;
+    padding: 50px 35px 0 35px;
+}
+a.scroll {
+    position: fixed;
+    right: 15px;
+    bottom: 80px;
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 18px;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.scroll img {
+    border: 2px solid;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    left: 7px;
+    top: 4px;
+}
